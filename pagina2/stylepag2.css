@@ -1,0 +1,104 @@
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: rgb(199, 199, 199);
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: rgb(172, 217, 178);
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+    --tont-family-tex-gris: rgba(121,121,121,1);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 1);
+}
+header{
+    width: 100%;
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktop{
+    display: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 148px;
+    height: 31px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pagina-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pagina-two h1{
+    width: 179px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: var(--black);
+    margin-bottom: 7px;
+}
+.pagina-two p{
+    width: 339px;
+    height: 46px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: var(--tont-family-tex-gris);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.pagina-two img{
+    margin-top: 20px;
+}
+.pagina-two button{
+    width: 339px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: var(--Hospital-green);
+    border: 1px solid rgba(172, 217, 178, 1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.0001);
+    margin-top: 30px;
+}
+.login{
+    width: 102px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    align-items: center;
+    color: var(--white);
+}
+.texto-dos{
+    width: 220px;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.5px;
+    align-items: center;
+    color: var(--tont-family-tex-gris);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.texto-verde{
+    color: var(--Hospital-green);
+}

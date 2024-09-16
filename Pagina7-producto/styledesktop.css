@@ -1,0 +1,77 @@
+@media (min-width:376px){
+    :root{
+        --white: rgb(255, 255, 255,1);
+        --black: rgb(0, 0, 0);
+        --Very-light-pink: rgb(199, 199, 199);
+        --Text-input-field: rgb(247, 247, 247);
+        --Hospital-green: rgb(172, 217, 178);
+        --Font-family-Quicksand:"Quicksand", sans-serif;
+        --Font-family-Roboto: "Roboto", sans-serif;
+        --tont-family-tex-gris: rgb(121, 121, 121);
+    }
+    header{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    body{
+        min-width: 386px; 
+        position: absolute;
+        right: 0;
+    }
+    .equiz{
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgba(36, 32, 32, 0.977);
+        padding-left: 11.5px;
+        padding-top: 8.9px;
+    }
+    .imagen1{
+        display: none;
+    }
+    .imagen2{
+        display: none;
+    }
+    .imagen3{
+        display: none;
+    }
+    .imagen4{
+        width: 12px;
+        height: 12px; 
+        top: 10px;  
+    }
+    .product{
+        width: 384px;
+        height: 384px;
+    }
+    .caja-2{
+        width: 316px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .presio{
+        width: 72px;
+        height: 21px;
+        font-family: var(--Font-family-Roboto);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.09px;
+    }
+    .boton{
+        width: 290px;
+    }
+    .dots {
+        margin-bottom: 50px;
+    }
+    .dot {
+        height: 9px;
+        width: 9px;
+    }
+}

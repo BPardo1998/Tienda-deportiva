@@ -1,0 +1,115 @@
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: #C7C7C7;
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: #acd9b2;
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   width: 100%; 
+   background-color: rgba(255, 255, 255, 1);
+}
+header{
+    width: 100%;
+    height: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    width: 340px;
+    padding: 0px 8.5px;
+    margin: 0 auto;
+}
+.desktop{
+    display: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 148px;
+    height: 31px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    width: 204px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    align-content: center;
+    color: rgba(0,0,0,1);
+    margin-bottom: 8px;
+}
+.titulo p{
+    width: 339px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    align-content: center;
+    color: var(--Very-light-pink);
+    margin-bottom: 5px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+.password-one{
+    width: 65px;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: rgba(0,0,0,1);
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+.boton{
+    width: 339px;
+    height: 42px;
+    border-radius: 8px;
+    color: var(--Very-light-pink);
+    border: 1px solid rgba(247, 247, 247, 1);
+}
+.password-two{
+    width: 129px;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: rgba(0,0,0,1);
+    margin-bottom: 4px;
+}
+.button-primario{
+    margin-top: 40px;
+    width: 339px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: var(--Hospital-green);
+    border: 1px solid rgba(172, 217, 178, 1);
+}
+.boton-texto{
+    color: var(--white);
+    font-family: var(--Font-family-Quicksand);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+    align-content: center;
+}

@@ -1,0 +1,61 @@
+@media (min-width:375px){
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: rgb(199, 199, 199);
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: rgb(172, 217, 178);
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+    --Font-family-Roboto: "Roboto", sans-serif;
+    --tont-family-tex-gris: rgba(121,121,121,1);
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        min-width: 100%;
+    }
+    .contenido{
+        flex-direction: row;
+        height: 400px;
+    }
+    .primer h1{
+        margin: 0;
+    }
+    .primer{
+        margin-top: 10px;
+        order: 1;
+        width: 100%;
+        height: 210px;
+        display: flex;   
+        justify-content: flex-start;
+    }
+    .imagen{
+        order: 2;
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loguito{
+        min-width: 375px;
+        height: 210px;
+    }
+    .botones{
+        margin-top: 40px;
+        display: flex;
+        gap: 0px 10px;
+    }
+    .boton1{
+        width: 120px;
+        height: 40px;
+        background-color: var(--Hospital-green);
+        border-radius: 8px;
+        border: 1px solid var(--Hospital-green);
+    }
+    .boton1:hover{
+        transform: scale(1.1);
+    }
+}

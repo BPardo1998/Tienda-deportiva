@@ -1,0 +1,65 @@
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: rgb(199, 199, 199);
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: rgb(172, 217, 178);
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+    --tont-family-tex-gris: rgba(121,121,121,1);
+    --Font-family-Roboto: "Roboto", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 153px;
+    height: 190px;
+    border: 12px solid rgba(255, 255, 255, 0.521) ;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1198);
+}
+.parrafo1{
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+.parrafo2{ 
+    margin-left: 35px;
+}
+.parrafo3{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.cajita li{
+    list-style-type: none;
+}
+.cajita a{
+    text-decoration: none; 
+}
+.desktop1 a{
+    font-size: 16px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--black);
+}
+.desktop1{
+    margin-bottom: 20px;
+}
+.desktop2{
+    margin-left: 10px;
+    width: 116px;
+    border-top: 1px solid rgba(151, 151, 151, 1) ;
+    width: 116px;
+    opacity: 0.1px;
+}
+.desktop2 a{
+    font-size: 14px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    line-height: 17.5px;
+    color: var(--Hospital-green);
+}

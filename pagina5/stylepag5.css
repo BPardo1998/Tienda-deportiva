@@ -1,0 +1,179 @@
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: rgb(199, 199, 199);
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: rgb(172, 217, 178);
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+    --tont-family-tex-gris: rgba(121,121,121,1);
+    --Font-family-Roboto: "Roboto", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 385px; 
+}
+header{
+    width: 375px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    margin: 0 auto;
+}
+li a{
+    text-decoration: none;
+    color: var(--tont-family-tex-gris);
+    font-size: 16px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+.desktop2{
+    display: none;
+}
+.desktop3{
+    display: none;
+}
+.logo{
+    display: none;
+}
+.imagen1{
+    width: 25px;
+    height: 19px;
+    margin-left: 8px;
+}
+.imagen2{
+    width: 96px;
+    height: 17px;
+}
+.imagen3{
+    width: 29.5px;
+    height: 27px;
+    margin-right: 8px;
+}
+.busqueda{
+    display: flex;
+    width: 375px;
+}
+.buscar{
+    display: flex;
+    align-items: center;
+    width: 339px;
+    height: 42px;
+    border-radius: 8px;
+    background: rgba(247, 247, 247, 1);
+    border: 1px solid rgba(247, 247, 247, 1);
+    margin: 0 auto;
+}
+.lupa{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+}
+.letra{
+    width: 135px;
+    height: 20px;
+    font-family: var(--Font-family-Quicksand);
+    font-size: 16x;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--tont-family-tex-gris);
+}
+.desktop{
+    width: 375px;
+    height: 42px;
+    margin: 0 auto;
+}
+.nav{
+    margin-top: 10px;
+    overflow: auto;
+}
+.nav::-webkit-scrollbar{
+    display: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 19px;
+    line-height: 42px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 42px;
+}
+.parrafo2{
+    width: 128px;
+    height: 18px;
+    font-size: 14px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 400;
+    line-height: 17.5px;
+    color: var(--tont-family-tex-gris);
+}
+.icono{
+    width: 7px;
+    height: 4px;
+    line-height: 42px;
+}
+.negrita{
+    font-size: 14px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    line-height: 17.5px;
+    margin-right: 5px;
+}
+.tienda{
+    width: 350px;
+    margin: 0 auto;
+}
+.productos-totales{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
+}
+.producto1{
+    width: 168px;
+}
+.imagen5{
+    width: 165px;
+    height: 165px;
+}
+.cajita{
+    display: flex;
+}
+.valor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.agregar{
+    width: 40px;
+    height: 40px;
+}
+.valor h1{
+    order: 1;
+    height: 19px;
+    font-family: var(--Font-family-Roboto);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.valor p{
+    order: 3;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+

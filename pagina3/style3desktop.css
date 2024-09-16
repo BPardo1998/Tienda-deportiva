@@ -1,0 +1,107 @@
+@media (min-width:376px){
+    .equis{
+        display: none;
+    }
+    body{
+        width: 1280px; 
+     }
+    header{ 
+        width: 1280px; 
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid rgba(255, 255, 255, 1);
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.0468);    
+    }
+    ul li a{
+        text-decoration: none;
+        margin: 0px 10px;
+        font-family: var(--Font-family-Quicksand);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(199, 199, 199, 1);
+        list-style: none;
+    }
+    section{
+        margin: 0 auto;
+        margin-top: 100px;
+        width: 340px;
+    }
+    div.logo{
+        padding-top: 15px;
+        margin-left: 12px;
+        width: 180px;
+        height: 54px;
+        margin-top: 0;
+    }
+    img.logo1{
+        margin: 0;
+        width: 140px;
+        padding-left: 10px;
+    }
+    .all {
+        margin-top: 11px;
+        padding-top: 5px;
+        padding-left: 11px;
+        display: block;
+        width: 47px;
+        height: 31px;
+        color: rgba(172, 217, 178, 1);
+        border: 1px solid rgba(172, 217, 178, 1);
+        border-radius: 8px;
+        
+
+    }
+    .desktop{
+        display: flex;
+        flex-grow: 1;
+        margin-left:40px;
+        gap: 0px 30px;
+        line-height: 54px;
+    }
+    .nav{
+        margin-right:40px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 144px;
+        height: 30px;
+        padding-left: 30px;
+    }
+    .logo1{
+        display: flex;
+        justify-content: center;
+        width: 180px;
+        height: 25.5px;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        
+    }
+    .imagen3{
+        width: 29.5px;
+        height: 27px;
+        margin-top: 14px;
+    }
+    .desktop h2 a{
+        text-decoration: none;
+        width: 126px;
+        height: 18px;
+        font-family: var(--Font-family-Quicksand);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.5px;
+        color: rgba(172, 217, 178, 1);
+        margin-left:400px;
+    }
+    .contenedor{
+        margin-top: 130px;
+    }
+}

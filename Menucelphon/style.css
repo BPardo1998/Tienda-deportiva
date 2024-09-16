@@ -1,0 +1,92 @@
+:root{
+    --white: rgb(255, 255, 255,1);
+    --black: rgb(0, 0, 0);
+    --Very-light-pink: rgb(199, 199, 199);
+    --Text-input-field: rgb(247, 247, 247);
+    --Hospital-green: rgb(172, 217, 178);
+    --Font-family-Quicksand:"Quicksand", sans-serif;
+    --tont-family-tex-gris: rgba(121,121,121,1);
+    --Font-family-Roboto: "Roboto", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width:100%;
+    height: 40px;    
+}
+.imagen{
+    height: 12px;
+    width: 12px;
+    margin-right: 20px;
+}
+.caja{
+    display: flex;
+    margin-left: 35px;
+    width: 297px;
+   
+}
+.caja li{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+.caja ul{
+    width: 297px;
+}
+.caja a{
+    text-decoration: none;
+    font-family: var(--Font-family-Quicksand);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    color: var(--black);
+    margin: 0px 9px;
+}
+.caja ul li:nth-child(8),
+.caja ul li:nth-child(9){
+    border-top: 1px solid rgba(237, 229, 229, 0.564);
+    margin-top: 20px;
+    width: 70%;
+}
+.caja ul li:last-child{
+    border: none;
+    padding: none;
+    margin: none;
+}
+.caja ul li:nth-child(8){
+    padding-top: 60px;
+}
+.pie{
+    width: 295px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 60px;
+    gap: 10px 0px;
+}
+.pie a{
+    text-decoration: none;
+}
+.pie li{
+    margin-top: 10px;
+}
+.pie a:last-child{
+    font-size: 14px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    color: var(--Hospital-green);
+    line-height: 17.5px;
+}
+.pie a:nth-child(1){
+    font-size: 14px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 300;
+    line-height: 17.5px;
+    color: var(--black);
+}
