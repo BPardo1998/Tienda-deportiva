@@ -14,12 +14,12 @@
     padding: 0;
 }
 body{
-    min-width: 375px;
+    min-width: 420px;
     height: auto;
     padding: 0px 12px;
 }
 header{
-    max-width: 375px;
+    max-width: 420px;
     height: 46px;
     display: flex;
     gap: 0px 100px;
@@ -28,7 +28,7 @@ header{
     margin-bottom: 20px;
 }
 section{
-    width: 375px;
+    width: 420px;
     padding-right: 10px;
 }
 .atras{

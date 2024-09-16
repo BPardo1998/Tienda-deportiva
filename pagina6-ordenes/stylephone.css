@@ -14,12 +14,12 @@
     padding: 0;
 }
 body{
-    min-width: 375px;
+    min-width: 420px;
     height: auto;
     padding: 0px 12px;
 }
 header{
-    max-width: 375px;
+    max-width: 420px;
     height: 42px;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@ header{
 .cajita{
     display: flex;
     justify-content: space-between;
-    width: 339px;
+    width: 369px;
     height: 76px;
     margin: 0 auto;
     padding: 0px 10px;

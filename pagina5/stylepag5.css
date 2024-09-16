@@ -14,10 +14,10 @@
     padding: 0;
 }
 body{
-    width: 385px; 
+    width: 420px; 
 }
 header{
-    width: 375px;
+    width: 420px;
     height: 46px;
     display: flex;
     justify-content: space-between;  
@@ -60,12 +60,12 @@ ul li{
 }
 .busqueda{
     display: flex;
-    width: 375px;
+    width: 410px;
 }
 .buscar{
     display: flex;
     align-items: center;
-    width: 339px;
+    width: 369px;
     height: 42px;
     border-radius: 8px;
     background: rgba(247, 247, 247, 1);
@@ -87,7 +87,7 @@ ul li{
     color: var(--tont-family-tex-gris);
 }
 .desktop{
-    width: 375px;
+    width: 420px;
     height: 42px;
     margin: 0 auto;
 }
@@ -108,7 +108,7 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 375px;
+    width: 420px;
     height: 42px;
 }
 .parrafo2{
@@ -133,7 +133,7 @@ ul li{
     margin-right: 5px;
 }
 .tienda{
-    width: 350px;
+    width: 346px;
     margin: 0 auto;
 }
 .productos-totales{

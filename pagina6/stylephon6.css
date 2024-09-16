@@ -14,12 +14,12 @@
     padding: 0;
 }
 body{
-    min-width: 375px;
+    min-width: 420px;
     height: auto;
     padding: 0px 12px;
 }
 header{
-    max-width: 375px;
+    max-width: 420px;
     height: 42px;
     display: flex;
     flex-direction: row;
@@ -55,7 +55,7 @@ section{
     font-weight: 700; 
 }
 .caja{
-    width: 322px; 
+    width: 346px; 
     margin: 0 auto;
 }
 .imagen1{
@@ -84,7 +84,7 @@ section{
     display: flex;
     justify-content: space-between;
     background: rgba(247, 247, 247, 1);
-    width: 339px;
+    width: 374px;
     height: 76px;
     margin: 25px 6px;
     padding: 0px 10px;

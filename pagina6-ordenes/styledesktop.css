@@ -1,4 +1,4 @@
-@media (min-width:376px){
+@media (min-width:420px){
     :root{
         --white: rgb(255, 255, 255,1);
         --black: rgb(0, 0, 0);
@@ -17,7 +17,7 @@
         height: 52px;
     }
     section{
-        max-width: 405px;
+        max-width: 420px;
         margin: 0 auto;
     }
     .imagen11{

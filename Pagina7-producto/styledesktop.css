@@ -1,4 +1,4 @@
-@media (min-width:376px){
+@media (min-width:420px){
     :root{
         --white: rgb(255, 255, 255,1);
         --black: rgb(0, 0, 0);
@@ -15,7 +15,8 @@
         height: auto;
     }
     body{
-        min-width: 386px; 
+        padding: 0px 5px;
+        min-width: 420px; 
         position: absolute;
         right: 0;
     }
@@ -50,7 +51,7 @@
         height: 384px;
     }
     .caja-2{
-        width: 316px;
+        width: 420px;
         margin-top: 60px;
         display: flex;
         flex-direction: column;

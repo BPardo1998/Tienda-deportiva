@@ -19,7 +19,7 @@ body{
     padding-right: 18px;
 }
 header{
-    width: 375px;
+    width: 420px;
     height: 46px;
     display: flex;
     justify-content:space-between;
@@ -53,7 +53,7 @@ input::placeholder{
 section{
     display: flex;
     flex-direction: column;
-    min-width: 375px;
+    min-width: 420px;
     margin-top: 30px;
     padding-right: 18px;
 }
@@ -113,6 +113,8 @@ section{
     justify-content: center;
     align-items: center;
     margin-top: 350px;
+    margin: 0 auto;
+    margin-top: 130px;
     flex-wrap: wrap;
     width: 339px;
     height: 59px;
@@ -129,11 +131,13 @@ section{
     font-size: 18px;
     font-weight: 700;
     line-height: 22.5px;
+    margin: 0 auto;
 }
 .boton33{
-    width: 339px;
+    width: 389px;
     height: 42px;
     border-radius: 5px;
     background: rgba(247, 247, 247, 1);
-    border: 1px solid rgba(247, 247, 247, 1)
+    border: 1px solid rgba(247, 247, 247, 1);
+    margin: 0 auto;
 }
